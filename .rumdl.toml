@@ -1,0 +1,10 @@
+exclude = ["README.md"]
+
+[MD013]
+line-length = 0
+reflow = true
+reflow-mode = "sentence-per-line"
+
+[per-file-ignores]
+"AGENTS.md" = ["MD041"]
+"CLAUDE.md" = ["MD041"]
