@@ -1,11 +1,22 @@
 {
   "name": "template",
   "private": true,
+  "type": "module",
   "scripts": {
+    "danger:ci": "danger ci --failOnErrors",
     "format:markdown": "rumdl fmt",
-    "format:markdown:check": "rumdl fmt --check"
+    "format:markdown:check": "rumdl fmt --check",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "rumdl": "^0.2.41"
+    "@types/node": "^24",
+    "danger": "^13.0.10",
+    "rumdl": "^0.2.41",
+    "typescript": "^5.7.0"
+  },
+  "overrides": {
+    "danger": {
+      "undici": "^6.27.0"
+    }
   }
 }
