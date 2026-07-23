@@ -1,0 +1,11 @@
+{
+  "name": "template",
+  "private": true,
+  "scripts": {
+    "format:markdown": "rumdl fmt",
+    "format:markdown:check": "rumdl fmt --check"
+  },
+  "devDependencies": {
+    "rumdl": "^0.2.41"
+  }
+}
