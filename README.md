@@ -35,6 +35,7 @@ It provides shared instructions and reusable skills for Claude Code and Codex, c
 
 | Command                         | Purpose                                      |
 | ------------------------------- | -------------------------------------------- |
+| `npm run check:agent-layout`    | Check the layout of agent instructions       |
 | `npm run typecheck`             | Type-check the Danger configuration          |
 | `npm run format:markdown`       | Format Markdown files with rumdl             |
 | `npm run format:markdown:check` | Check Markdown formatting without rewriting  |
